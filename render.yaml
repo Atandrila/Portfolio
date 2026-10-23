@@ -2,7 +2,7 @@ services:
   - type: web
     name: atandrila-portfolio
     runtime: static
-    buildCommand: npm install && npm run build
+    buildCommand: pnpm run build
     staticPublishPath: ./dist
     routes:
       - type: rewrite
